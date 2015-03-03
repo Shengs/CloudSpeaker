@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C44E925F1AA55DC300F16AE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E925E1AA55DC300F16AE4 /* main.m */; };
+		C44E92621AA55DC300F16AE4 /* CSDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92611AA55DC300F16AE4 /* CSDelegate.m */; };
+		C44E92651AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C44E92631AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodeld */; };
+		C44E926B1AA55DC300F16AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C44E92691AA55DC300F16AE4 /* Main.storyboard */; };
+		C44E926D1AA55DC300F16AE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44E926C1AA55DC300F16AE4 /* Images.xcassets */; };
+		C44E92701AA55DC300F16AE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C44E926E1AA55DC300F16AE4 /* LaunchScreen.xib */; };
+		C44E927C1AA55DC300F16AE4 /* Cloud_SpeakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E927B1AA55DC300F16AE4 /* Cloud_SpeakerTests.m */; };
+		C44E92861AA56EF500F16AE4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E92851AA56EF500F16AE4 /* AudioToolbox.framework */; };
+		C44E92881AA56EFE00F16AE4 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E92871AA56EFE00F16AE4 /* CoreAudio.framework */; };
+		C44E928E1AA5D8F600F16AE4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E928D1AA5D8F600F16AE4 /* MediaPlayer.framework */; };
+		C44E92901AA5D91E00F16AE4 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E928F1AA5D91E00F16AE4 /* MultipeerConnectivity.framework */; };
+		C44E92921AA5D92600F16AE4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E92911AA5D92600F16AE4 /* AVFoundation.framework */; };
+		C44E92941AA5D93100F16AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E92931AA5D93100F16AE4 /* Foundation.framework */; };
+		C44E92961AA5D93B00F16AE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E92951AA5D93B00F16AE4 /* CoreGraphics.framework */; };
+		C44E92981AA5D94400F16AE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E92971AA5D94400F16AE4 /* UIKit.framework */; };
+		C44E92A31AA5DBFD00F16AE4 /* CSAudioFileStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92A21AA5DBFD00F16AE4 /* CSAudioFileStream.m */; };
+		C44E92A61AA5DFD200F16AE4 /* CSAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92A51AA5DFD200F16AE4 /* CSAudioStream.m */; };
+		C44E92A91AA5E0D000F16AE4 /* CSAudioQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92A81AA5E0D000F16AE4 /* CSAudioQueueController.m */; };
+		C44E92AC1AA5E18900F16AE4 /* CSAudioQueueBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92AB1AA5E18900F16AE4 /* CSAudioQueueBuffer.m */; };
+		C44E92B01AA5E37100F16AE4 /* NSMutableArray+QueueMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92AF1AA5E37100F16AE4 /* NSMutableArray+QueueMethods.m */; };
+		C44E92B31AA5E43C00F16AE4 /* CSAudioQueueBufferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92B21AA5E43C00F16AE4 /* CSAudioQueueBufferManager.m */; };
+		C44E92B61AA5E7A900F16AE4 /* CSAudioQueueFiller.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92B51AA5E7A900F16AE4 /* CSAudioQueueFiller.m */; };
+		C44E92B91AA5E84E00F16AE4 /* CSAudioQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92B81AA5E84E00F16AE4 /* CSAudioQueue.m */; };
+		C44E92BC1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92BB1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m */; };
+		C44E92C01AA5EDE000F16AE4 /* CSHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92BF1AA5EDE000F16AE4 /* CSHostViewController.m */; };
+		C44E92C31AA5EE4400F16AE4 /* CSReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92C21AA5EE4400F16AE4 /* CSReceiverViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C44E92761AA55DC300F16AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C44E92511AA55DC300F16AE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C44E92581AA55DC300F16AE4;
+			remoteInfo = "Cloud Speaker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C44E92591AA55DC300F16AE4 /* Cloud Speaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Speaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44E925D1AA55DC300F16AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44E925E1AA55DC300F16AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C44E92601AA55DC300F16AE4 /* CSDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSDelegate.h; sourceTree = "<group>"; };
+		C44E92611AA55DC300F16AE4 /* CSDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSDelegate.m; sourceTree = "<group>"; };
+		C44E92641AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cloud_Speaker.xcdatamodel; sourceTree = "<group>"; };
+		C44E926A1AA55DC300F16AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C44E926C1AA55DC300F16AE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C44E926F1AA55DC300F16AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C44E92751AA55DC300F16AE4 /* Cloud SpeakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cloud SpeakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44E927A1AA55DC300F16AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44E927B1AA55DC300F16AE4 /* Cloud_SpeakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloud_SpeakerTests.m; sourceTree = "<group>"; };
+		C44E92851AA56EF500F16AE4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C44E92871AA56EFE00F16AE4 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C44E928D1AA5D8F600F16AE4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C44E928F1AA5D91E00F16AE4 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		C44E92911AA5D92600F16AE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C44E92931AA5D93100F16AE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C44E92951AA5D93B00F16AE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C44E92971AA5D94400F16AE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C44E92A11AA5DBFD00F16AE4 /* CSAudioFileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioFileStream.h; path = "Streaming/Core Classes/CSAudioFileStream.h"; sourceTree = "<group>"; };
+		C44E92A21AA5DBFD00F16AE4 /* CSAudioFileStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioFileStream.m; path = "Streaming/Core Classes/CSAudioFileStream.m"; sourceTree = "<group>"; };
+		C44E92A41AA5DFD200F16AE4 /* CSAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioStream.h; path = "Streaming/Core Classes/CSAudioStream.h"; sourceTree = "<group>"; };
+		C44E92A51AA5DFD200F16AE4 /* CSAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioStream.m; path = "Streaming/Core Classes/CSAudioStream.m"; sourceTree = "<group>"; };
+		C44E92A71AA5E0D000F16AE4 /* CSAudioQueueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioQueueController.h; path = "Streaming/Core Classes/CSAudioQueueController.h"; sourceTree = "<group>"; };
+		C44E92A81AA5E0D000F16AE4 /* CSAudioQueueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioQueueController.m; path = "Streaming/Core Classes/CSAudioQueueController.m"; sourceTree = "<group>"; };
+		C44E92AA1AA5E18900F16AE4 /* CSAudioQueueBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioQueueBuffer.h; path = "Streaming/Core Classes/CSAudioQueueBuffer.h"; sourceTree = "<group>"; };
+		C44E92AB1AA5E18900F16AE4 /* CSAudioQueueBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioQueueBuffer.m; path = "Streaming/Core Classes/CSAudioQueueBuffer.m"; sourceTree = "<group>"; };
+		C44E92AE1AA5E37100F16AE4 /* NSMutableArray+QueueMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QueueMethods.h"; path = "Streaming/Categories/NSMutableArray+QueueMethods.h"; sourceTree = "<group>"; };
+		C44E92AF1AA5E37100F16AE4 /* NSMutableArray+QueueMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+QueueMethods.m"; path = "Streaming/Categories/NSMutableArray+QueueMethods.m"; sourceTree = "<group>"; };
+		C44E92B11AA5E43C00F16AE4 /* CSAudioQueueBufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioQueueBufferManager.h; path = "Streaming/Core Classes/CSAudioQueueBufferManager.h"; sourceTree = "<group>"; };
+		C44E92B21AA5E43C00F16AE4 /* CSAudioQueueBufferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioQueueBufferManager.m; path = "Streaming/Core Classes/CSAudioQueueBufferManager.m"; sourceTree = "<group>"; };
+		C44E92B41AA5E7A900F16AE4 /* CSAudioQueueFiller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioQueueFiller.h; path = "Streaming/Core Classes/CSAudioQueueFiller.h"; sourceTree = "<group>"; };
+		C44E92B51AA5E7A900F16AE4 /* CSAudioQueueFiller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioQueueFiller.m; path = "Streaming/Core Classes/CSAudioQueueFiller.m"; sourceTree = "<group>"; };
+		C44E92B71AA5E84E00F16AE4 /* CSAudioQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioQueue.h; path = "Streaming/Core Classes/CSAudioQueue.h"; sourceTree = "<group>"; };
+		C44E92B81AA5E84E00F16AE4 /* CSAudioQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioQueue.m; path = "Streaming/Core Classes/CSAudioQueue.m"; sourceTree = "<group>"; };
+		C44E92BA1AA5EAC700F16AE4 /* CSAudioStreamerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioStreamerConstants.h; path = Streaming/CSAudioStreamerConstants.h; sourceTree = "<group>"; };
+		C44E92BB1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioStreamerConstants.m; path = Streaming/CSAudioStreamerConstants.m; sourceTree = "<group>"; };
+		C44E92BE1AA5EDE000F16AE4 /* CSHostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSHostViewController.h; path = Views/CSHostViewController.h; sourceTree = "<group>"; };
+		C44E92BF1AA5EDE000F16AE4 /* CSHostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSHostViewController.m; path = Views/CSHostViewController.m; sourceTree = "<group>"; };
+		C44E92C11AA5EE4400F16AE4 /* CSReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSReceiverViewController.h; path = Views/CSReceiverViewController.h; sourceTree = "<group>"; };
+		C44E92C21AA5EE4400F16AE4 /* CSReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSReceiverViewController.m; path = Views/CSReceiverViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C44E92561AA55DC300F16AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44E92981AA5D94400F16AE4 /* UIKit.framework in Frameworks */,
+				C44E92961AA5D93B00F16AE4 /* CoreGraphics.framework in Frameworks */,
+				C44E92941AA5D93100F16AE4 /* Foundation.framework in Frameworks */,
+				C44E92921AA5D92600F16AE4 /* AVFoundation.framework in Frameworks */,
+				C44E92901AA5D91E00F16AE4 /* MultipeerConnectivity.framework in Frameworks */,
+				C44E928E1AA5D8F600F16AE4 /* MediaPlayer.framework in Frameworks */,
+				C44E92881AA56EFE00F16AE4 /* CoreAudio.framework in Frameworks */,
+				C44E92861AA56EF500F16AE4 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44E92721AA55DC300F16AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C44E92501AA55DC300F16AE4 = {
+			isa = PBXGroup;
+			children = (
+				C44E925B1AA55DC300F16AE4 /* Cloud Speaker */,
+				C44E92781AA55DC300F16AE4 /* Cloud SpeakerTests */,
+				C44E92891AA56F1400F16AE4 /* Frameworks */,
+				C44E925A1AA55DC300F16AE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C44E925A1AA55DC300F16AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C44E92591AA55DC300F16AE4 /* Cloud Speaker.app */,
+				C44E92751AA55DC300F16AE4 /* Cloud SpeakerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C44E925B1AA55DC300F16AE4 /* Cloud Speaker */ = {
+			isa = PBXGroup;
+			children = (
+				C44E928A1AA5D66100F16AE4 /* Streaming */,
+				C44E928C1AA5D68300F16AE4 /* Views */,
+				C44E928B1AA5D67500F16AE4 /* Classes */,
+				C44E92601AA55DC300F16AE4 /* CSDelegate.h */,
+				C44E92611AA55DC300F16AE4 /* CSDelegate.m */,
+				C44E92691AA55DC300F16AE4 /* Main.storyboard */,
+				C44E926C1AA55DC300F16AE4 /* Images.xcassets */,
+				C44E926E1AA55DC300F16AE4 /* LaunchScreen.xib */,
+				C44E92631AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodeld */,
+				C44E925C1AA55DC300F16AE4 /* Supporting Files */,
+			);
+			path = "Cloud Speaker";
+			sourceTree = "<group>";
+		};
+		C44E925C1AA55DC300F16AE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44E925D1AA55DC300F16AE4 /* Info.plist */,
+				C44E925E1AA55DC300F16AE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C44E92781AA55DC300F16AE4 /* Cloud SpeakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C44E927B1AA55DC300F16AE4 /* Cloud_SpeakerTests.m */,
+				C44E92791AA55DC300F16AE4 /* Supporting Files */,
+			);
+			path = "Cloud SpeakerTests";
+			sourceTree = "<group>";
+		};
+		C44E92791AA55DC300F16AE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C44E927A1AA55DC300F16AE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C44E92891AA56F1400F16AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C44E92971AA5D94400F16AE4 /* UIKit.framework */,
+				C44E92951AA5D93B00F16AE4 /* CoreGraphics.framework */,
+				C44E92931AA5D93100F16AE4 /* Foundation.framework */,
+				C44E92911AA5D92600F16AE4 /* AVFoundation.framework */,
+				C44E928F1AA5D91E00F16AE4 /* MultipeerConnectivity.framework */,
+				C44E928D1AA5D8F600F16AE4 /* MediaPlayer.framework */,
+				C44E92851AA56EF500F16AE4 /* AudioToolbox.framework */,
+				C44E92871AA56EFE00F16AE4 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C44E928A1AA5D66100F16AE4 /* Streaming */ = {
+			isa = PBXGroup;
+			children = (
+				C44E92AD1AA5E25F00F16AE4 /* Categories */,
+				C44E92991AA5D98C00F16AE4 /* Core Classes */,
+				C44E92BA1AA5EAC700F16AE4 /* CSAudioStreamerConstants.h */,
+				C44E92BB1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m */,
+			);
+			name = Streaming;
+			sourceTree = "<group>";
+		};
+		C44E928B1AA5D67500F16AE4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C44E928C1AA5D68300F16AE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C44E92BE1AA5EDE000F16AE4 /* CSHostViewController.h */,
+				C44E92BF1AA5EDE000F16AE4 /* CSHostViewController.m */,
+				C44E92C11AA5EE4400F16AE4 /* CSReceiverViewController.h */,
+				C44E92C21AA5EE4400F16AE4 /* CSReceiverViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C44E92991AA5D98C00F16AE4 /* Core Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C44E92A11AA5DBFD00F16AE4 /* CSAudioFileStream.h */,
+				C44E92A21AA5DBFD00F16AE4 /* CSAudioFileStream.m */,
+				C44E92A41AA5DFD200F16AE4 /* CSAudioStream.h */,
+				C44E92A51AA5DFD200F16AE4 /* CSAudioStream.m */,
+				C44E92A71AA5E0D000F16AE4 /* CSAudioQueueController.h */,
+				C44E92A81AA5E0D000F16AE4 /* CSAudioQueueController.m */,
+				C44E92AA1AA5E18900F16AE4 /* CSAudioQueueBuffer.h */,
+				C44E92AB1AA5E18900F16AE4 /* CSAudioQueueBuffer.m */,
+				C44E92B11AA5E43C00F16AE4 /* CSAudioQueueBufferManager.h */,
+				C44E92B21AA5E43C00F16AE4 /* CSAudioQueueBufferManager.m */,
+				C44E92B41AA5E7A900F16AE4 /* CSAudioQueueFiller.h */,
+				C44E92B51AA5E7A900F16AE4 /* CSAudioQueueFiller.m */,
+				C44E92B71AA5E84E00F16AE4 /* CSAudioQueue.h */,
+				C44E92B81AA5E84E00F16AE4 /* CSAudioQueue.m */,
+			);
+			name = "Core Classes";
+			sourceTree = "<group>";
+		};
+		C44E92AD1AA5E25F00F16AE4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C44E92AE1AA5E37100F16AE4 /* NSMutableArray+QueueMethods.h */,
+				C44E92AF1AA5E37100F16AE4 /* NSMutableArray+QueueMethods.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44E92581AA55DC300F16AE4 /* Cloud Speaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44E927F1AA55DC300F16AE4 /* Build configuration list for PBXNativeTarget "Cloud Speaker" */;
+			buildPhases = (
+				C44E92551AA55DC300F16AE4 /* Sources */,
+				C44E92561AA55DC300F16AE4 /* Frameworks */,
+				C44E92571AA55DC300F16AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cloud Speaker";
+			productName = "Cloud Speaker";
+			productReference = C44E92591AA55DC300F16AE4 /* Cloud Speaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C44E92741AA55DC300F16AE4 /* Cloud SpeakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44E92821AA55DC300F16AE4 /* Build configuration list for PBXNativeTarget "Cloud SpeakerTests" */;
+			buildPhases = (
+				C44E92711AA55DC300F16AE4 /* Sources */,
+				C44E92721AA55DC300F16AE4 /* Frameworks */,
+				C44E92731AA55DC300F16AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C44E92771AA55DC300F16AE4 /* PBXTargetDependency */,
+			);
+			name = "Cloud SpeakerTests";
+			productName = "Cloud SpeakerTests";
+			productReference = C44E92751AA55DC300F16AE4 /* Cloud SpeakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C44E92511AA55DC300F16AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "No Fun";
+				TargetAttributes = {
+					C44E92581AA55DC300F16AE4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C44E92741AA55DC300F16AE4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C44E92581AA55DC300F16AE4;
+					};
+				};
+			};
+			buildConfigurationList = C44E92541AA55DC300F16AE4 /* Build configuration list for PBXProject "Cloud Speaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C44E92501AA55DC300F16AE4;
+			productRefGroup = C44E925A1AA55DC300F16AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44E92581AA55DC300F16AE4 /* Cloud Speaker */,
+				C44E92741AA55DC300F16AE4 /* Cloud SpeakerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C44E92571AA55DC300F16AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44E926B1AA55DC300F16AE4 /* Main.storyboard in Resources */,
+				C44E92701AA55DC300F16AE4 /* LaunchScreen.xib in Resources */,
+				C44E926D1AA55DC300F16AE4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44E92731AA55DC300F16AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C44E92551AA55DC300F16AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44E92AC1AA5E18900F16AE4 /* CSAudioQueueBuffer.m in Sources */,
+				C44E92C31AA5EE4400F16AE4 /* CSReceiverViewController.m in Sources */,
+				C44E92651AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodeld in Sources */,
+				C44E92B31AA5E43C00F16AE4 /* CSAudioQueueBufferManager.m in Sources */,
+				C44E92621AA55DC300F16AE4 /* CSDelegate.m in Sources */,
+				C44E92A91AA5E0D000F16AE4 /* CSAudioQueueController.m in Sources */,
+				C44E92BC1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m in Sources */,
+				C44E92A31AA5DBFD00F16AE4 /* CSAudioFileStream.m in Sources */,
+				C44E92C01AA5EDE000F16AE4 /* CSHostViewController.m in Sources */,
+				C44E92A61AA5DFD200F16AE4 /* CSAudioStream.m in Sources */,
+				C44E92B01AA5E37100F16AE4 /* NSMutableArray+QueueMethods.m in Sources */,
+				C44E92B61AA5E7A900F16AE4 /* CSAudioQueueFiller.m in Sources */,
+				C44E925F1AA55DC300F16AE4 /* main.m in Sources */,
+				C44E92B91AA5E84E00F16AE4 /* CSAudioQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44E92711AA55DC300F16AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44E927C1AA55DC300F16AE4 /* Cloud_SpeakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C44E92771AA55DC300F16AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C44E92581AA55DC300F16AE4 /* Cloud Speaker */;
+			targetProxy = C44E92761AA55DC300F16AE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C44E92691AA55DC300F16AE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44E926A1AA55DC300F16AE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C44E926E1AA55DC300F16AE4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C44E926F1AA55DC300F16AE4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C44E927D1AA55DC300F16AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C44E927E1AA55DC300F16AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44E92801AA55DC300F16AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cloud Speaker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C44E92811AA55DC300F16AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cloud Speaker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C44E92831AA55DC300F16AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cloud SpeakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud Speaker.app/Cloud Speaker";
+			};
+			name = Debug;
+		};
+		C44E92841AA55DC300F16AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cloud SpeakerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud Speaker.app/Cloud Speaker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C44E92541AA55DC300F16AE4 /* Build configuration list for PBXProject "Cloud Speaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44E927D1AA55DC300F16AE4 /* Debug */,
+				C44E927E1AA55DC300F16AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44E927F1AA55DC300F16AE4 /* Build configuration list for PBXNativeTarget "Cloud Speaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44E92801AA55DC300F16AE4 /* Debug */,
+				C44E92811AA55DC300F16AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44E92821AA55DC300F16AE4 /* Build configuration list for PBXNativeTarget "Cloud SpeakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C44E92831AA55DC300F16AE4 /* Debug */,
+				C44E92841AA55DC300F16AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C44E92631AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C44E92641AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodel */,
+			);
+			currentVersion = C44E92641AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodel */;
+			path = Cloud_Speaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C44E92511AA55DC300F16AE4 /* Project object */;
+}
