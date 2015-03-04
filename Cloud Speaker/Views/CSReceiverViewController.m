@@ -67,5 +67,8 @@
         [self.inputStream start];
     }
 }
+- (IBAction)backHome:(id)sender {
+    [self.navigationController popViewControllerAnimated:true];
+}
 
 @end

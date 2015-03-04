@@ -15,6 +15,36 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
             endingLineNumber = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CSAudioQueue state]"
+                  moduleName = "Cloud Speaker"
+                  urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Streaming/Core%20Classes/CSAudioQueue.h"
+                  timestampString = "447188106.827594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CSAudioQueue setState:]"
+                  moduleName = "Cloud Speaker"
+                  urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Streaming/Core%20Classes/CSAudioQueue.h"
+                  timestampString = "447188106.827764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -55,12 +85,12 @@
                   symbolName = "-[CSLoginViewController username]"
                   moduleName = "Cloud Speaker"
                   urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Views/CSLoginViewController.m"
-                  timestampString = "447182243.307997"
+                  timestampString = "447188106.880617"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
                   endingLineNumber = "13"
-                  offsetFromSymbolStart = "12">
+                  offsetFromSymbolStart = "16">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -69,12 +99,12 @@
                   symbolName = "-[CSLoginViewController setUsername:]"
                   moduleName = "Cloud Speaker"
                   urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Views/CSLoginViewController.m"
-                  timestampString = "447182243.308141"
+                  timestampString = "447188106.880757"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
                   endingLineNumber = "13"
-                  offsetFromSymbolStart = "20">
+                  offsetFromSymbolStart = "28">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -124,7 +154,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Cloud Speaker/Streaming/CSAudioStreamerConstants.h"

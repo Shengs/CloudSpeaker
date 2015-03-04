@@ -12,8 +12,6 @@
 	<dict>
 		<key>1C3767695D6B26442D045CA3F048958D2D937E89</key>
 		<string>https://github.com/Team16-NoFun/CloudSpeaker.git</string>
-		<key>5C5264F95BA887DA55C1616AAE7ADC39F5E60AD9</key>
-		<string>https://github.com/Shengs/Cloud-Speaker.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Cloud Speaker.xcodeproj</string>
@@ -21,8 +19,6 @@
 	<dict>
 		<key>1C3767695D6B26442D045CA3F048958D2D937E89</key>
 		<string>../..</string>
-		<key>5C5264F95BA887DA55C1616AAE7ADC39F5E60AD9</key>
-		<string>../../../Cloud-Speaker</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Team16-NoFun/CloudSpeaker.git</string>
@@ -32,14 +28,6 @@
 	<string>1C3767695D6B26442D045CA3F048958D2D937E89</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5C5264F95BA887DA55C1616AAE7ADC39F5E60AD9</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Cloud-Speaker</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

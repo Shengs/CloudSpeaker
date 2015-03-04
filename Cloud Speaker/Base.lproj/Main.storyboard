@@ -185,19 +185,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAm-wr-qda">
+                                <rect key="frame" x="88" y="497" width="145" height="44"/>
+                                <state key="normal" title="Back to Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backHome:" destination="kXA-dA-iEt" eventType="touchUpInside" id="9eb-kz-o9S"/>
+                                    <segue destination="8C6-Vp-Uby" kind="popoverPresentation" popoverAnchorView="KAm-wr-qda" id="pVa-I7-GjG">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Menu" id="4Tg-Ar-0Zk"/>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="bXV-yk-Jcj"/>
-                        <barButtonItem title="Back" id="YvR-ds-lsY">
-                            <connections>
-                                <segue destination="8C6-Vp-Uby" kind="presentation" id="K9D-u6-9WK"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="albumImage" destination="yjg-Z7-eB6" id="cIB-HN-re0"/>
@@ -230,6 +233,15 @@
                                     <segue destination="uUu-3m-LY6" kind="show" id="Ccf-f8-Bma"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njK-cX-AwZ">
+                                <rect key="frame" x="198" y="171" width="106" height="180"/>
+                                <state key="normal" title="Join A Station">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="kXA-dA-iEt" kind="show" id="3Zy-IX-cAE"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AD-tc-UgU">
                                 <rect key="frame" x="98" y="43" width="125" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -248,15 +260,6 @@
                                 <state key="normal" title="Log Out">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njK-cX-AwZ">
-                                <rect key="frame" x="198" y="171" width="106" height="180"/>
-                                <state key="normal" title="Join A Station">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="kXA-dA-iEt" kind="show" id="3Zy-IX-cAE"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -339,6 +342,9 @@
                                                 <state key="normal" title="New List">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addSongs:" destination="uUu-3m-LY6" eventType="touchUpInside" id="zoD-j2-Abs"/>
+                                                </connections>
                                             </button>
                                             <connections>
                                                 <action selector="addSongs:" destination="uUu-3m-LY6" id="vNl-k3-pZP"/>
@@ -383,20 +389,22 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OZ-SQ-YMF">
+                                <rect key="frame" x="88" y="477" width="145" height="44"/>
+                                <state key="normal" title="Back to Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backHome:" destination="kXA-dA-iEt" eventType="touchUpInside" id="O1c-Kg-4eb"/>
+                                    <segue destination="8C6-Vp-Uby" kind="popoverPresentation" popoverAnchorView="5OZ-SQ-YMF" id="j3R-7w-tD5">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Menu" id="Hod-8M-IOy"/>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="LzK-E7-j47"/>
-                        <barButtonItem title="Back" id="rAd-g4-cDk">
-                            <connections>
-                                <action selector="back:" destination="uUu-3m-LY6" id="HjN-HR-keH"/>
-                                <segue destination="8C6-Vp-Uby" kind="presentation" id="fTc-gJ-Vzy"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <toolbarItems/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="albumImage" destination="bi8-Ak-AQk" id="xIG-az-vNR"/>
@@ -449,7 +457,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="K9D-u6-9WK"/>
+        <segue reference="j3R-7w-tD5"/>
         <segue reference="bj0-Ng-c0r"/>
         <segue reference="8ka-va-jVU"/>
     </inferredMetricsTieBreakers>
