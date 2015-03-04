@@ -33,6 +33,15 @@
 		C44E92BC1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92BB1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m */; };
 		C44E92C01AA5EDE000F16AE4 /* CSHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92BF1AA5EDE000F16AE4 /* CSHostViewController.m */; };
 		C44E92C31AA5EE4400F16AE4 /* CSReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92C21AA5EE4400F16AE4 /* CSReceiverViewController.m */; };
+		C44E92C61AA6080A00F16AE4 /* CSWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92C51AA6080A00F16AE4 /* CSWelcomeViewController.m */; };
+		C44E92C91AA6082900F16AE4 /* CSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92C81AA6082900F16AE4 /* CSLoginViewController.m */; };
+		C44E92CC1AA6083C00F16AE4 /* CSRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92CB1AA6083C00F16AE4 /* CSRegisterViewController.m */; };
+		C44E92CF1AA608D800F16AE4 /* CSPassResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92CE1AA608D800F16AE4 /* CSPassResetViewController.m */; };
+		C44E92D21AA608FE00F16AE4 /* CSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E92D11AA608FE00F16AE4 /* CSHomeViewController.m */; };
+		C4E5CB7B1AA758A8000ED79E /* CSAudioInputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5CB7A1AA758A8000ED79E /* CSAudioInputStreamer.m */; };
+		C4E5CB7E1AA759DD000ED79E /* CSAudioOutputStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5CB7D1AA759DD000ED79E /* CSAudioOutputStreamer.m */; };
+		C4E5CB811AA75AF3000ED79E /* CSAudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5CB801AA75AF3000ED79E /* CSAudioStreamer.m */; };
+		C4E5CB851AA762F9000ED79E /* CSSessions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E5CB841AA762F9000ED79E /* CSSessions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +56,7 @@
 
 /* Begin PBXFileReference section */
 		C44E92591AA55DC300F16AE4 /* Cloud Speaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Speaker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44E925D1AA55DC300F16AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C44E925D1AA55DC300F16AE4 /* CloudSpeaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CloudSpeaker-Info.plist"; sourceTree = "<group>"; };
 		C44E925E1AA55DC300F16AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C44E92601AA55DC300F16AE4 /* CSDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSDelegate.h; sourceTree = "<group>"; };
 		C44E92611AA55DC300F16AE4 /* CSDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +97,25 @@
 		C44E92BF1AA5EDE000F16AE4 /* CSHostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSHostViewController.m; path = Views/CSHostViewController.m; sourceTree = "<group>"; };
 		C44E92C11AA5EE4400F16AE4 /* CSReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSReceiverViewController.h; path = Views/CSReceiverViewController.h; sourceTree = "<group>"; };
 		C44E92C21AA5EE4400F16AE4 /* CSReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSReceiverViewController.m; path = Views/CSReceiverViewController.m; sourceTree = "<group>"; };
+		C44E92C41AA6080A00F16AE4 /* CSWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSWelcomeViewController.h; path = Views/CSWelcomeViewController.h; sourceTree = "<group>"; };
+		C44E92C51AA6080A00F16AE4 /* CSWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSWelcomeViewController.m; path = Views/CSWelcomeViewController.m; sourceTree = "<group>"; };
+		C44E92C71AA6082900F16AE4 /* CSLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSLoginViewController.h; path = Views/CSLoginViewController.h; sourceTree = "<group>"; };
+		C44E92C81AA6082900F16AE4 /* CSLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSLoginViewController.m; path = Views/CSLoginViewController.m; sourceTree = "<group>"; };
+		C44E92CA1AA6083C00F16AE4 /* CSRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSRegisterViewController.h; path = Views/CSRegisterViewController.h; sourceTree = "<group>"; };
+		C44E92CB1AA6083C00F16AE4 /* CSRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSRegisterViewController.m; path = Views/CSRegisterViewController.m; sourceTree = "<group>"; };
+		C44E92CD1AA608D800F16AE4 /* CSPassResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSPassResetViewController.h; path = Views/CSPassResetViewController.h; sourceTree = "<group>"; };
+		C44E92CE1AA608D800F16AE4 /* CSPassResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSPassResetViewController.m; path = Views/CSPassResetViewController.m; sourceTree = "<group>"; };
+		C44E92D01AA608FE00F16AE4 /* CSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSHomeViewController.h; path = Views/CSHomeViewController.h; sourceTree = "<group>"; };
+		C44E92D11AA608FE00F16AE4 /* CSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSHomeViewController.m; path = Views/CSHomeViewController.m; sourceTree = "<group>"; };
+		C4E5CB791AA758A8000ED79E /* CSAudioInputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioInputStreamer.h; path = Streaming/CSAudioInputStreamer.h; sourceTree = "<group>"; };
+		C4E5CB7A1AA758A8000ED79E /* CSAudioInputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioInputStreamer.m; path = Streaming/CSAudioInputStreamer.m; sourceTree = "<group>"; };
+		C4E5CB7C1AA759DD000ED79E /* CSAudioOutputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioOutputStreamer.h; path = Streaming/CSAudioOutputStreamer.h; sourceTree = "<group>"; };
+		C4E5CB7D1AA759DD000ED79E /* CSAudioOutputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioOutputStreamer.m; path = Streaming/CSAudioOutputStreamer.m; sourceTree = "<group>"; };
+		C4E5CB7F1AA75AF3000ED79E /* CSAudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioStreamer.h; path = Streaming/CSAudioStreamer.h; sourceTree = "<group>"; };
+		C4E5CB801AA75AF3000ED79E /* CSAudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioStreamer.m; path = Streaming/CSAudioStreamer.m; sourceTree = "<group>"; };
+		C4E5CB821AA76042000ED79E /* CSAudioStreamer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CSAudioStreamer-Prefix.pch"; sourceTree = "<group>"; };
+		C4E5CB831AA762F9000ED79E /* CSSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSSessions.h; path = Sessions/CSSessions.h; sourceTree = "<group>"; };
+		C4E5CB841AA762F9000ED79E /* CSSessions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSSessions.m; path = Sessions/CSSessions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +168,7 @@
 			children = (
 				C44E928A1AA5D66100F16AE4 /* Streaming */,
 				C44E928C1AA5D68300F16AE4 /* Views */,
-				C44E928B1AA5D67500F16AE4 /* Classes */,
+				C44E928B1AA5D67500F16AE4 /* Sessions */,
 				C44E92601AA55DC300F16AE4 /* CSDelegate.h */,
 				C44E92611AA55DC300F16AE4 /* CSDelegate.m */,
 				C44E92691AA55DC300F16AE4 /* Main.storyboard */,
@@ -155,8 +183,9 @@
 		C44E925C1AA55DC300F16AE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C44E925D1AA55DC300F16AE4 /* Info.plist */,
+				C44E925D1AA55DC300F16AE4 /* CloudSpeaker-Info.plist */,
 				C44E925E1AA55DC300F16AE4 /* main.m */,
+				C4E5CB821AA76042000ED79E /* CSAudioStreamer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -198,17 +227,25 @@
 			children = (
 				C44E92AD1AA5E25F00F16AE4 /* Categories */,
 				C44E92991AA5D98C00F16AE4 /* Core Classes */,
+				C4E5CB791AA758A8000ED79E /* CSAudioInputStreamer.h */,
+				C4E5CB7A1AA758A8000ED79E /* CSAudioInputStreamer.m */,
+				C4E5CB7C1AA759DD000ED79E /* CSAudioOutputStreamer.h */,
+				C4E5CB7D1AA759DD000ED79E /* CSAudioOutputStreamer.m */,
 				C44E92BA1AA5EAC700F16AE4 /* CSAudioStreamerConstants.h */,
 				C44E92BB1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m */,
+				C4E5CB7F1AA75AF3000ED79E /* CSAudioStreamer.h */,
+				C4E5CB801AA75AF3000ED79E /* CSAudioStreamer.m */,
 			);
 			name = Streaming;
 			sourceTree = "<group>";
 		};
-		C44E928B1AA5D67500F16AE4 /* Classes */ = {
+		C44E928B1AA5D67500F16AE4 /* Sessions */ = {
 			isa = PBXGroup;
 			children = (
+				C4E5CB831AA762F9000ED79E /* CSSessions.h */,
+				C4E5CB841AA762F9000ED79E /* CSSessions.m */,
 			);
-			name = Classes;
+			name = Sessions;
 			sourceTree = "<group>";
 		};
 		C44E928C1AA5D68300F16AE4 /* Views */ = {
@@ -218,6 +255,16 @@
 				C44E92BF1AA5EDE000F16AE4 /* CSHostViewController.m */,
 				C44E92C11AA5EE4400F16AE4 /* CSReceiverViewController.h */,
 				C44E92C21AA5EE4400F16AE4 /* CSReceiverViewController.m */,
+				C44E92C41AA6080A00F16AE4 /* CSWelcomeViewController.h */,
+				C44E92C51AA6080A00F16AE4 /* CSWelcomeViewController.m */,
+				C44E92C71AA6082900F16AE4 /* CSLoginViewController.h */,
+				C44E92C81AA6082900F16AE4 /* CSLoginViewController.m */,
+				C44E92CA1AA6083C00F16AE4 /* CSRegisterViewController.h */,
+				C44E92CB1AA6083C00F16AE4 /* CSRegisterViewController.m */,
+				C44E92CD1AA608D800F16AE4 /* CSPassResetViewController.h */,
+				C44E92CE1AA608D800F16AE4 /* CSPassResetViewController.m */,
+				C44E92D01AA608FE00F16AE4 /* CSHomeViewController.h */,
+				C44E92D11AA608FE00F16AE4 /* CSHomeViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -301,6 +348,7 @@
 				TargetAttributes = {
 					C44E92581AA55DC300F16AE4 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2NTNFD853P;
 					};
 					C44E92741AA55DC300F16AE4 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -352,20 +400,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44E92C91AA6082900F16AE4 /* CSLoginViewController.m in Sources */,
+				C4E5CB851AA762F9000ED79E /* CSSessions.m in Sources */,
+				C44E92C61AA6080A00F16AE4 /* CSWelcomeViewController.m in Sources */,
 				C44E92AC1AA5E18900F16AE4 /* CSAudioQueueBuffer.m in Sources */,
 				C44E92C31AA5EE4400F16AE4 /* CSReceiverViewController.m in Sources */,
 				C44E92651AA55DC300F16AE4 /* Cloud_Speaker.xcdatamodeld in Sources */,
 				C44E92B31AA5E43C00F16AE4 /* CSAudioQueueBufferManager.m in Sources */,
 				C44E92621AA55DC300F16AE4 /* CSDelegate.m in Sources */,
 				C44E92A91AA5E0D000F16AE4 /* CSAudioQueueController.m in Sources */,
+				C44E92D21AA608FE00F16AE4 /* CSHomeViewController.m in Sources */,
 				C44E92BC1AA5EAC700F16AE4 /* CSAudioStreamerConstants.m in Sources */,
 				C44E92A31AA5DBFD00F16AE4 /* CSAudioFileStream.m in Sources */,
 				C44E92C01AA5EDE000F16AE4 /* CSHostViewController.m in Sources */,
+				C4E5CB7B1AA758A8000ED79E /* CSAudioInputStreamer.m in Sources */,
 				C44E92A61AA5DFD200F16AE4 /* CSAudioStream.m in Sources */,
+				C4E5CB7E1AA759DD000ED79E /* CSAudioOutputStreamer.m in Sources */,
 				C44E92B01AA5E37100F16AE4 /* NSMutableArray+QueueMethods.m in Sources */,
+				C44E92CF1AA608D800F16AE4 /* CSPassResetViewController.m in Sources */,
+				C44E92CC1AA6083C00F16AE4 /* CSRegisterViewController.m in Sources */,
 				C44E92B61AA5E7A900F16AE4 /* CSAudioQueueFiller.m in Sources */,
 				C44E925F1AA55DC300F16AE4 /* main.m in Sources */,
 				C44E92B91AA5E84E00F16AE4 /* CSAudioQueue.m in Sources */,
+				C4E5CB811AA75AF3000ED79E /* CSAudioStreamer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +495,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -473,7 +530,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -487,7 +544,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Cloud Speaker/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Cloud Speaker/CloudSpeaker-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -497,7 +555,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Cloud Speaker/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Cloud Speaker/CloudSpeaker-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

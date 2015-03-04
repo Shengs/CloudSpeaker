@@ -1,18 +1,18 @@
 //
-//  CSHostViewController.m
+//  CSHomeViewController.m
 //  Cloud Speaker
 //
 //  Created by chaos on 3/3/15.
 //  Copyright (c) 2015 No Fun. All rights reserved.
 //
 
-#import "CSHostViewController.h"
+#import "CSHomeViewController.h"
 
-@interface CSHostViewController ()
+@interface CSHomeViewController ()
 
 @end
 
-@implementation CSHostViewController
+@implementation CSHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

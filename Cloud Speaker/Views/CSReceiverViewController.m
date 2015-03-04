@@ -6,32 +6,66 @@
 //  Copyright (c) 2015 No Fun. All rights reserved.
 //
 
-#import "CSReceiverViewController.h"
+@import MediaPlayer;
 
-@interface CSReceiverViewController ()
+#import "CSReceiverViewController.h"
+#import "CSSessions.h"
+#import "CSAudioStreamer.h"
+
+@interface CSReceiverViewController () <CSSessionDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *albumImage;
+@property (weak, nonatomic) IBOutlet UILabel *songTitle;
+@property (weak, nonatomic) IBOutlet UILabel *songArtist;
+
+@property (strong, nonatomic) CSSession *session;
+@property (strong, nonatomic) CSAudioInputStreamer *inputStream;
 
 @end
 
 @implementation CSReceiverViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.session = [[CSSession alloc] initWithPeerDisplayName:@"Guest"];
+    [self.session startAdvertisingForServiceType:@"dance-party" discoveryInfo:nil];
+    self.session.delegate = self;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    [self.session stopAdvertising];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)changeSongInfo:(NSDictionary *)info
+{
+    if (info[@"artwork"])
+        self.albumImage.image = info[@"artwork"];
+    else
+        self.albumImage.image = nil;
+    
+    self.songTitle.text = info[@"title"];
+    self.songArtist.text = info[@"artist"];
 }
-*/
+
+#pragma mark - TDSessionDelegate
+
+- (void)session:(CSSession *)session didReceiveData:(NSData *)data
+{
+    NSDictionary *info = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+    [self performSelectorOnMainThread:@selector(changeSongInfo:) withObject:info waitUntilDone:NO];
+}
+
+- (void)session:(CSSession *)session didReceiveAudioStream:(NSInputStream *)stream
+{
+    if (!self.inputStream) {
+        self.inputStream = [[CSAudioInputStreamer alloc] initWithInputStream:stream];
+        [self.inputStream start];
+    }
+}
 
 @end

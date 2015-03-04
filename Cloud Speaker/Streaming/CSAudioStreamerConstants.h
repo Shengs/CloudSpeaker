@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 No Fun. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 extern NSString *const CSAudioStreamerDidChangeAudioNotification;
 extern NSString *const CSAudioStreamerDidPauseNotification;
 extern NSString *const CSAudioStreamerDidPlayNotification;
