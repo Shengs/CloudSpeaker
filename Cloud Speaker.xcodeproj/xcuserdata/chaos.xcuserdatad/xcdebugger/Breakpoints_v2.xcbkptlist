@@ -23,7 +23,7 @@
                   symbolName = "-[CSAudioQueue state]"
                   moduleName = "Cloud Speaker"
                   urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Streaming/Core%20Classes/CSAudioQueue.h"
-                  timestampString = "447188106.827594"
+                  timestampString = "447665596.790535"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "32"
@@ -37,12 +37,12 @@
                   symbolName = "-[CSAudioQueue setState:]"
                   moduleName = "Cloud Speaker"
                   urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Streaming/Core%20Classes/CSAudioQueue.h"
-                  timestampString = "447188106.827764"
+                  timestampString = "447665596.790706"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "32"
                   endingLineNumber = "32"
-                  offsetFromSymbolStart = "20">
+                  offsetFromSymbolStart = "18">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -85,7 +85,7 @@
                   symbolName = "-[CSLoginViewController username]"
                   moduleName = "Cloud Speaker"
                   urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Views/CSLoginViewController.m"
-                  timestampString = "447188106.880617"
+                  timestampString = "447665596.851395"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -99,12 +99,12 @@
                   symbolName = "-[CSLoginViewController setUsername:]"
                   moduleName = "Cloud Speaker"
                   urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Views/CSLoginViewController.m"
-                  timestampString = "447188106.880757"
+                  timestampString = "447665596.851756"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
                   endingLineNumber = "13"
-                  offsetFromSymbolStart = "28">
+                  offsetFromSymbolStart = "22">
                </Location>
             </Locations>
          </BreakpointContent>
