@@ -10,24 +10,44 @@
 
 @interface CSLoginViewController ()
 
-@property (nonatomic, strong) NSString *username;
-@property (nonatomic, strong) NSString *password;
 
 @end
 
 @implementation CSLoginViewController
 
 - (void)viewDidLoad {
+    
+    // Set this in every view controller so that the back button displays back instead of the root view controller name
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed: @"NavBarBG.png"] forBarMetrics: UIBarMetricsDefault];
+    
+    //Set navBar image programatically    (NavBar.png replace with the image)
+    
+    UIImage *image = [UIImage imageNamed: @"logo.png"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage: image];
+    
+    self.navigationItem.titleView = imageView;
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
+    [super touchesBegan:touches withEvent:event];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 /*
 #pragma mark - Navigation

@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface CSRegisterViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *username;
+
+@property (strong, nonatomic) IBOutlet UITextField *password;
+@property (strong, nonatomic) IBOutlet UITextField *retype;
+
 
 @end
