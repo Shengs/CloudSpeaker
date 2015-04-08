@@ -15,6 +15,36 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
             endingLineNumber = "19">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CSAudioQueue state]"
+                  moduleName = "Cloud Speaker"
+                  urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Streaming/Core%20Classes/CSAudioQueue.h"
+                  timestampString = "449778235.185342"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CSAudioQueue setState:]"
+                  moduleName = "Cloud Speaker"
+                  urlString = "file:///Users/chaos/Desktop/CloudSpeaker/Cloud%20Speaker/Streaming/Core%20Classes/CSAudioQueue.h"
+                  timestampString = "449778235.18551"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
