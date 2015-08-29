@@ -6,21 +6,21 @@ This app was designed for situation that users need music speaker but only have 
 
 # Steps
 1. Open and login into the APP
-![screenshot](http://shihengz.com/wp-content/uploads/2015/08/IMG_2737.png)
-![screenshot](ttp://shihengz.com/wp-content/uploads/2015/07/IMG_2739.png)
+![screenshot](http://shihengz.com/wp-content/uploads/2015/08/IMG_2737.png =375x667)
+![screenshot](ttp://shihengz.com/wp-content/uploads/2015/07/IMG_2739.png =375x667)
 
 2. Select host or join an existing speaker
-![screenshot](http://shihengz.com/wp-content/uploads/2015/07/IMG_2740.png)
+![screenshot](http://shihengz.com/wp-content/uploads/2015/07/IMG_2740.png =375x667)
 
 3. Host, select music file, invite nearby users
-![screenshot](http://shihengz.com/wp-content/uploads/2015/08/IMG_2743.png)
-![screenshot](http://shihengz.com/wp-content/uploads/2015/07/IMG_2744.png)
+![screenshot](http://shihengz.com/wp-content/uploads/2015/08/IMG_2743.png =375x667)
+![screenshot](http://shihengz.com/wp-content/uploads/2015/07/IMG_2744.png =375x667)
 
 4. Join a host
-![screenshot](http://shihengz.com/wp-content/uploads/2015/08/IMG_2746.png)
+![screenshot](http://shihengz.com/wp-content/uploads/2015/08/IMG_2746.png =375x667)
 
 5. Music will be played
-![screenshot](http://shihengz.com/wp-content/uploads/2015/07/IMG_2748.png)
+![screenshot](http://shihengz.com/wp-content/uploads/2015/07/IMG_2748.png =375x667)
 
 # Test Video
 [![video](http://img.youtube.com/vi/Q3x0twf-ySs&feature=youtu.be/0.jpg)]
