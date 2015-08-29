@@ -151,7 +151,7 @@
 		C4C70F8A1ACECA94005F8E53 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		C4C70F8B1ACECA94005F8E53 /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
 		C4C70F8C1ACECA94005F8E53 /* pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointer@2x.png"; sourceTree = "<group>"; };
-		C4C70FA21ACECC64005F8E53 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Downloads/icon.png; sourceTree = "<group>"; };
+		C4C70FA21ACECC64005F8E53 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		C4E5CB791AA758A8000ED79E /* CSAudioInputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioInputStreamer.h; path = Streaming/CSAudioInputStreamer.h; sourceTree = "<group>"; };
 		C4E5CB7A1AA758A8000ED79E /* CSAudioInputStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAudioInputStreamer.m; path = Streaming/CSAudioInputStreamer.m; sourceTree = "<group>"; };
 		C4E5CB7C1AA759DD000ED79E /* CSAudioOutputStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAudioOutputStreamer.h; path = Streaming/CSAudioOutputStreamer.h; sourceTree = "<group>"; };

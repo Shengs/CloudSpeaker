@@ -49,6 +49,26 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)login:(id)sender {
+    NSString *username = _usernameTextField.text;
+    NSString *password = _passwordTextField.text;
+    
+    NSString *anURL;
+    
+    anURL = @"http://shihengz.com/service.php";
+    
+    NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:[NSURL URLWithString:anURL]];
+    [request setHTTPMethod:@"POST"];
+    
+    NSString *post =[[NSString alloc] initWithFormat:@"username=%@&password=%@", username, password];
+    [request setHTTPBody:[post dataUsingEncoding:NSASCIIStringEncoding]];
+    
+    NSURLResponse *response;
+    NSError *err;
+    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&err];
+    NSString *responseStr = [NSString stringWithUTF8String:[responseData bytes]];
+    NSLog(@"%@", responseStr);}
+
 /*
 #pragma mark - Navigation
 

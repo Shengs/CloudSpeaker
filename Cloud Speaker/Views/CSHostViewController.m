@@ -15,6 +15,7 @@
 #import "CSSessions.h"
 #import <AVFoundation/AVFoundation.h>
 
+
 @interface CSHostViewController () <MPMediaPickerControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIImageView *albumImage;
