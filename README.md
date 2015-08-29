@@ -6,7 +6,7 @@ This app was designed for situation that users need music speaker but only have 
 
 # Steps
 1. Open and login into the APP
-![screenshot](http://shihengz.com/wp-content/uploads/2015/08/IMG_2737.png)
+![screenshot](http://shihengz.com/wp-content/uploads/2015/08/IMG_2737-e1440876773418.png)
 ![screenshot](ttp://shihengz.com/wp-content/uploads/2015/07/IMG_2739.png)
 
 2. Select host or join an existing speaker
