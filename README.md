@@ -29,5 +29,5 @@ This app was designed for situation that users need music speaker but only have 
 
 # Test Video
 
-[![video](http://img.youtube.com/vi/Q3x0twf-ySs&feature=youtu.be/0.jpg)]
-(http://www.youtube.com/watch?v=Q3x0twf-ySs&feature=youtu.be)
+[![video](http://img.youtube.com/vi/Q3x0twf-ySs/0.jpg)]
+(http://www.youtube.com/watch?v=Q3x0twf-ySs)
